@@ -304,10 +304,13 @@ nav.hidden {
 /*========== [End Navbar] ==========*/
 /*========== [03 - Start Header] ==========*/
 #header {
-  height: 750px;
+  height: 650px;
 }
 #header .header-content {
   padding-top: 1rem;
+}
+#header .header-content .row{
+  padding-top: 10rem;
 }
 #header .header-content p {
   font-size: 17px;
