@@ -339,13 +339,16 @@ nav.hidden {
 
 @media (max-width: 575.98px) {
   #header {
-    height: calc(100vh - 70px);
+    height: 100vh;
+    overflow: hidden;
   }
   #header .header-content {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 0;
+    height: inherit;
+    margin-top: -30px;
   }
-
   #header .header-content h1 {
     font-size: 34px;
     font-weight: bold;
