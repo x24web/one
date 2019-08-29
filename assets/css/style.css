@@ -304,14 +304,11 @@ nav.hidden {
 /*========== [End Navbar] ==========*/
 /*========== [03 - Start Header] ==========*/
 #header {
-  min-height: 650px;
   height: auto;
 }
 #header .header-content {
-  padding-top: 1rem;
-}
-#header .header-content .row{
-  padding-top: 10rem;
+  padding-top: 15rem;
+  padding-bottom: 4rem;
 }
 #header .header-content p {
   font-size: 17px;
@@ -341,45 +338,64 @@ nav.hidden {
 }
 
 @media (max-width: 575.98px) {
-  #header {
-    height: 650px;
-  }
-
   #header .header-content {
     padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #header .header-content h1 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #header .header-content p {
+    text-align: center;
+    width: 100%;
+  }
+
+  #header .header-content .buttons-container {
+    display: block;
+    text-align: center;
   }
 
   #header .wave {
     background: #265cdc;
     border-radius: 0% 0% 0% 100%;
-    width: 38%;
+    width: 120px;
     z-index: 1050;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #header {
-    height: 500px;
-  }
-
   #header .header-content {
-    padding-top: 4rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
-
   #header .wave {
     top: -20px;
     width: 75%;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  #header {
-    height: 600px;
-  }
-
   #header .header-content {
-    padding-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+  #header .header-content h1{
+    font-size: 36px;
+  }
+  #header .header-content img{
+    width: 90% !important;
+  }
+  #header .wave {
+    width: 50%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #header .header-content {
+    padding-top: 10rem;
+    padding-bottom: 50px;
+  }
   #header .wave {
     top: -110px;
     width: 90%;
