@@ -304,7 +304,8 @@ nav.hidden {
 /*========== [End Navbar] ==========*/
 /*========== [03 - Start Header] ==========*/
 #header {
-  height: 650px;
+  min-height: 650px;
+  height: auto;
 }
 #header .header-content {
   padding-top: 1rem;
