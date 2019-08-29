@@ -338,6 +338,9 @@ nav.hidden {
 }
 
 @media (max-width: 575.98px) {
+  #header {
+    height: 100vh;
+  }
   #header .header-content {
     padding-top: 50px;
     padding-bottom: 50px;
