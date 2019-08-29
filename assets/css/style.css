@@ -339,11 +339,11 @@ nav.hidden {
 
 @media (max-width: 575.98px) {
   #header {
-    height: 100vh;
+    height: 80vh;
   }
   #header .header-content {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 
   #header .header-content h1 {
